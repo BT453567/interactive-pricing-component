@@ -1,0 +1,23 @@
+{
+    "0": {
+      "pageviews": "10K",
+      "cost": 8.00
+    },
+    "1": {
+      "pageviews": "50K",
+      "cost": 12.00
+    },
+    "2": {
+      "pageviews": "100K",
+      "cost": 16.00
+    },
+    "3": {
+      "pageviews": "500K",
+      "cost": 24.00
+    },
+    "4": {
+      "pageviews": "1M",
+      "cost": 36.00
+    }
+  }
+  

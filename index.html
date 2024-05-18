@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="shortcut icon" href="./assets/images/favicon-32x32.png">
+    <script defer src="./js/main.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <title>Interactive pricing component</title>
+</head>
+<body>
+    <div class="background-overlay"></div>
+    <main>
+        <div class="heading-container">
+            <svg xmlns="http://www.w3.org/2000/svg" width="146" height="145"><g fill="none" fill-rule="evenodd" stroke="#CFD8EF"><circle cx="63" cy="82" r="62.5"/><circle cx="105" cy="41" r="40.5"/></g></svg>
+            <div class="heading-content">
+                <h1 class="main-heading">Simple, traffic-based pricing</h1>
+                <p class="main-subtitle">Sign-up for our 30-day trial. No credit card required.</p>
+            </div>
+            
+        </div>
+        <div class="component-container">
+            
+            <div class="top-container">
+                <div>
+                    <p id="pageviews" class="pageviews"></p>
+                </div>
+                <div id="range-bar-container-mobile" class="range-bar-container-mobile"></div>
+                <div class="cost-container">
+                    <p id="cost" class="cost"></p>
+                    <p class="time">/ month</p>
+                </div>
+            </div>
+            
+            <div id="range-bar-container" class="range-bar-container">
+            
+                <input id="range" class="range hover" type="range" min="0" max="4" value="0" step="1"/>
+            
+            </div>
+
+            <div class="billing-options-container">
+
+                <p class="monthly-billing">Monthly Billing</p>
+
+                <label for="checkbox" class="switch">
+                    <input id="checkbox" type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+
+                <p class="yearly-billing">Yearly Billing</p>
+
+                <p class="discount-desktop">25% discount</p>
+                <p class="discount-mobile">25%</p>
+
+                
+
+            </div>
+
+            <div class="horizontal-line"></div>
+
+            <div class="bottom-container">
+                <div class="list-container">
+                    <ul>
+                        <li><img src="./assets/images/icon-check.svg" alt="">Unlimited websites</li>
+                        <li><img src="./assets/images/icon-check.svg" alt="">100% data ownership</li>
+                        <li><img src="./assets/images/icon-check.svg" alt="">Email reports</li>
+                    </ul>
+
+                </div>
+                <div class="button-container">
+                    <button>Start my trial</button>
+                </div>
+            </div>
+
+
+           
+
+
+        </div>
+
+        
+
+    </main>
+</body>
+</html>
